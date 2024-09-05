@@ -1,0 +1,11 @@
+
+.black_tile{
+    background-color: #0000009e;
+}
+.white_tile {
+    background-color: ffffffbd;
+}
+
+.chess-img {
+    width: 60px;
+}
