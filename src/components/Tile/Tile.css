@@ -8,4 +8,9 @@
 
 .chess-img {
     width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--dynamic-image);
 }
