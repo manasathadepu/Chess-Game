@@ -1,16 +1,9 @@
 import React from 'react';
 import './Tile.css';
-
-
-interface Piece {
-    piece: string;
-    color: string;
-    position: string;
-    id: number;
-  } 
+import { Pieces } from '../Chessboard/chessBoardContext';
 
 interface Props {
-    piece: Piece | undefined
+    piece: Pieces | undefined
     color: string;
     position: string;
     movedPiece: string | null | undefined;
